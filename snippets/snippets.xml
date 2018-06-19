@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+<template id="snippet_grid_column_for_all_snippets_icon" inherit_id="muk_website_snippet_grid.snippet_grid_bar" name="Grid Column Snippet For All snippets Icon">
+  <xpath expr="//div[@id='snippet_grid']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="grid_for_all_snippets.snippet_grid_column_for_all_snippets"
+       t-thumbnail="grid_for_all_snippets/static/src/img/grid_column_for_all_snippets.png"/>
+  </xpath>
+</template>
+
+</odoo>
